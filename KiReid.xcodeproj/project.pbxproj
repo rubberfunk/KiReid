@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB5254D1BE6B5CD005C33C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB5254C1BE6B5CD005C33C0 /* AppDelegate.swift */; };
+		FCB5254F1BE6B5CD005C33C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB5254E1BE6B5CD005C33C0 /* ViewController.swift */; };
+		FCB525521BE6B5CD005C33C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB525501BE6B5CD005C33C0 /* Main.storyboard */; };
+		FCB525541BE6B5CD005C33C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB525531BE6B5CD005C33C0 /* Assets.xcassets */; };
+		FCB525571BE6B5CD005C33C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB525551BE6B5CD005C33C0 /* LaunchScreen.storyboard */; };
+		FCB525621BE6B5CD005C33C0 /* KiReidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB525611BE6B5CD005C33C0 /* KiReidTests.swift */; };
+		FCB5256D1BE6B5CD005C33C0 /* KiReidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB5256C1BE6B5CD005C33C0 /* KiReidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCB5255E1BE6B5CD005C33C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB525411BE6B5CD005C33C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB525481BE6B5CD005C33C0;
+			remoteInfo = KiReid;
+		};
+		FCB525691BE6B5CD005C33C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB525411BE6B5CD005C33C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB525481BE6B5CD005C33C0;
+			remoteInfo = KiReid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCB525491BE6B5CD005C33C0 /* KiReid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiReid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB5254C1BE6B5CD005C33C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCB5254E1BE6B5CD005C33C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCB525511BE6B5CD005C33C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCB525531BE6B5CD005C33C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB525561BE6B5CD005C33C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCB525581BE6B5CD005C33C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB5255D1BE6B5CD005C33C0 /* KiReidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiReidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB525611BE6B5CD005C33C0 /* KiReidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiReidTests.swift; sourceTree = "<group>"; };
+		FCB525631BE6B5CD005C33C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB525681BE6B5CD005C33C0 /* KiReidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiReidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB5256C1BE6B5CD005C33C0 /* KiReidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiReidUITests.swift; sourceTree = "<group>"; };
+		FCB5256E1BE6B5CD005C33C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB525461BE6B5CD005C33C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB5255A1BE6B5CD005C33C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB525651BE6B5CD005C33C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB525401BE6B5CD005C33C0 = {
+			isa = PBXGroup;
+			children = (
+				FCB5254B1BE6B5CD005C33C0 /* KiReid */,
+				FCB525601BE6B5CD005C33C0 /* KiReidTests */,
+				FCB5256B1BE6B5CD005C33C0 /* KiReidUITests */,
+				FCB5254A1BE6B5CD005C33C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB5254A1BE6B5CD005C33C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB525491BE6B5CD005C33C0 /* KiReid.app */,
+				FCB5255D1BE6B5CD005C33C0 /* KiReidTests.xctest */,
+				FCB525681BE6B5CD005C33C0 /* KiReidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB5254B1BE6B5CD005C33C0 /* KiReid */ = {
+			isa = PBXGroup;
+			children = (
+				FCB5254C1BE6B5CD005C33C0 /* AppDelegate.swift */,
+				FCB5254E1BE6B5CD005C33C0 /* ViewController.swift */,
+				FCB525501BE6B5CD005C33C0 /* Main.storyboard */,
+				FCB525531BE6B5CD005C33C0 /* Assets.xcassets */,
+				FCB525551BE6B5CD005C33C0 /* LaunchScreen.storyboard */,
+				FCB525581BE6B5CD005C33C0 /* Info.plist */,
+			);
+			path = KiReid;
+			sourceTree = "<group>";
+		};
+		FCB525601BE6B5CD005C33C0 /* KiReidTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB525611BE6B5CD005C33C0 /* KiReidTests.swift */,
+				FCB525631BE6B5CD005C33C0 /* Info.plist */,
+			);
+			path = KiReidTests;
+			sourceTree = "<group>";
+		};
+		FCB5256B1BE6B5CD005C33C0 /* KiReidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB5256C1BE6B5CD005C33C0 /* KiReidUITests.swift */,
+				FCB5256E1BE6B5CD005C33C0 /* Info.plist */,
+			);
+			path = KiReidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB525481BE6B5CD005C33C0 /* KiReid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB525711BE6B5CD005C33C0 /* Build configuration list for PBXNativeTarget "KiReid" */;
+			buildPhases = (
+				FCB525451BE6B5CD005C33C0 /* Sources */,
+				FCB525461BE6B5CD005C33C0 /* Frameworks */,
+				FCB525471BE6B5CD005C33C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiReid;
+			productName = KiReid;
+			productReference = FCB525491BE6B5CD005C33C0 /* KiReid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCB5255C1BE6B5CD005C33C0 /* KiReidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB525741BE6B5CD005C33C0 /* Build configuration list for PBXNativeTarget "KiReidTests" */;
+			buildPhases = (
+				FCB525591BE6B5CD005C33C0 /* Sources */,
+				FCB5255A1BE6B5CD005C33C0 /* Frameworks */,
+				FCB5255B1BE6B5CD005C33C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB5255F1BE6B5CD005C33C0 /* PBXTargetDependency */,
+			);
+			name = KiReidTests;
+			productName = KiReidTests;
+			productReference = FCB5255D1BE6B5CD005C33C0 /* KiReidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCB525671BE6B5CD005C33C0 /* KiReidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB525771BE6B5CD005C33C0 /* Build configuration list for PBXNativeTarget "KiReidUITests" */;
+			buildPhases = (
+				FCB525641BE6B5CD005C33C0 /* Sources */,
+				FCB525651BE6B5CD005C33C0 /* Frameworks */,
+				FCB525661BE6B5CD005C33C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB5256A1BE6B5CD005C33C0 /* PBXTargetDependency */,
+			);
+			name = KiReidUITests;
+			productName = KiReidUITests;
+			productReference = FCB525681BE6B5CD005C33C0 /* KiReidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB525411BE6B5CD005C33C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kiya Eshaghian";
+				TargetAttributes = {
+					FCB525481BE6B5CD005C33C0 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FCB5255C1BE6B5CD005C33C0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FCB525481BE6B5CD005C33C0;
+					};
+					FCB525671BE6B5CD005C33C0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FCB525481BE6B5CD005C33C0;
+					};
+				};
+			};
+			buildConfigurationList = FCB525441BE6B5CD005C33C0 /* Build configuration list for PBXProject "KiReid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB525401BE6B5CD005C33C0;
+			productRefGroup = FCB5254A1BE6B5CD005C33C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB525481BE6B5CD005C33C0 /* KiReid */,
+				FCB5255C1BE6B5CD005C33C0 /* KiReidTests */,
+				FCB525671BE6B5CD005C33C0 /* KiReidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB525471BE6B5CD005C33C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB525571BE6B5CD005C33C0 /* LaunchScreen.storyboard in Resources */,
+				FCB525541BE6B5CD005C33C0 /* Assets.xcassets in Resources */,
+				FCB525521BE6B5CD005C33C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB5255B1BE6B5CD005C33C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB525661BE6B5CD005C33C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB525451BE6B5CD005C33C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB5254F1BE6B5CD005C33C0 /* ViewController.swift in Sources */,
+				FCB5254D1BE6B5CD005C33C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB525591BE6B5CD005C33C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB525621BE6B5CD005C33C0 /* KiReidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB525641BE6B5CD005C33C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB5256D1BE6B5CD005C33C0 /* KiReidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCB5255F1BE6B5CD005C33C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB525481BE6B5CD005C33C0 /* KiReid */;
+			targetProxy = FCB5255E1BE6B5CD005C33C0 /* PBXContainerItemProxy */;
+		};
+		FCB5256A1BE6B5CD005C33C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB525481BE6B5CD005C33C0 /* KiReid */;
+			targetProxy = FCB525691BE6B5CD005C33C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCB525501BE6B5CD005C33C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB525511BE6B5CD005C33C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCB525551BE6B5CD005C33C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB525561BE6B5CD005C33C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB5256F1BE6B5CD005C33C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB525701BE6B5CD005C33C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB525721BE6B5CD005C33C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KiReid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEshaghian.KiReid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCB525731BE6B5CD005C33C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KiReid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEshaghian.KiReid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCB525751BE6B5CD005C33C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KiReidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEshaghian.KiReidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiReid.app/KiReid";
+			};
+			name = Debug;
+		};
+		FCB525761BE6B5CD005C33C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KiReidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEshaghian.KiReidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiReid.app/KiReid";
+			};
+			name = Release;
+		};
+		FCB525781BE6B5CD005C33C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KiReidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEshaghian.KiReidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KiReid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCB525791BE6B5CD005C33C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KiReidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KEshaghian.KiReidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KiReid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB525441BE6B5CD005C33C0 /* Build configuration list for PBXProject "KiReid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB5256F1BE6B5CD005C33C0 /* Debug */,
+				FCB525701BE6B5CD005C33C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB525711BE6B5CD005C33C0 /* Build configuration list for PBXNativeTarget "KiReid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB525721BE6B5CD005C33C0 /* Debug */,
+				FCB525731BE6B5CD005C33C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCB525741BE6B5CD005C33C0 /* Build configuration list for PBXNativeTarget "KiReidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB525751BE6B5CD005C33C0 /* Debug */,
+				FCB525761BE6B5CD005C33C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCB525771BE6B5CD005C33C0 /* Build configuration list for PBXNativeTarget "KiReidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB525781BE6B5CD005C33C0 /* Debug */,
+				FCB525791BE6B5CD005C33C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB525411BE6B5CD005C33C0 /* Project object */;
+}
